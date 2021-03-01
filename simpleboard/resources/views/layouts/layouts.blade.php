@@ -5,9 +5,15 @@
     <link href="{{ asset('css/app.css') }}" rel="stylessheet">
 </head>
 <body>
+    @component('components.header')
+    @endcomponent
  <div class="container">
- @yield('content')
+    @yield('content')
  </div>
+
+ @component('components.footer')
+ @endcomponent
+ 
  <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </hyml>
