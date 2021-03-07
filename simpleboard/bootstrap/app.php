@@ -49,7 +49,9 @@ $app->singleton(
 | This script returns the application instance. The instance is given to
 | the calling script so we can separate the building of the instances
 | from the actual running of the application and sending responses.
-|
+|このスクリプトは、アプリケーションインスタンスを返します。インスタンスは呼び出し
+元のスクリプトに渡されるため、インスタンスの構築をアプリケーションの実際の実行や
+応答の送信から分離できます。
 */
 
 return $app;
