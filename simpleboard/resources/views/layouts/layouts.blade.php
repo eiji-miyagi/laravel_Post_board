@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>@yield('title')</title>
-    <meta namae="csrf-token" content="{{ csrf_token() }}">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="{{ asset('css/app.css') }}" rel="stylessheet">
 </head>
 <body>
@@ -10,7 +10,7 @@
  <div class="container">
     @yield('content')
  </div>
-
+<!-- コンポーネント呼び出し -->
  @component('components.footer')
  @endcomponent
  
