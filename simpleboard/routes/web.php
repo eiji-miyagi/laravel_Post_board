@@ -16,6 +16,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/', 'PostController@index');
 // URL末尾postsでPostControllerのリソース実行/
 Route::resource('posts', 'PostController');
 
