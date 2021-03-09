@@ -20,5 +20,5 @@
  
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
-</hyml>
+</html>
  
