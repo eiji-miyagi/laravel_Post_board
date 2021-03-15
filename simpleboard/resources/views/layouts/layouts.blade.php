@@ -7,8 +7,10 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
     <body>
+        <!-- コンポーネント呼び出し -->
         @component('components.header')
         @endcomponent
+        
         <div class="container pt-5 pb-5">
             @component('components.flash')
             @endcomponent

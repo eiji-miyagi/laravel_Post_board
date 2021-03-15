@@ -15,7 +15,8 @@
             </ul>
         </div>
     @endif
-    <form methot="POST" action="/posts">
+    <form method="POST" action="/posts">
+    <!-- フォーム内容が認証済みかどうか確認 -->
         {{ csrf_field() }}
         <div class="form-group">
             <label for="exampleInputEmail1">Title</label>
