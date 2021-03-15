@@ -4,7 +4,7 @@
 
 @section('content')
     <h1>Editing Post</h1>
-     @if ($serrors->any())
+     @if ($errors->any())
         <div class="alert alert-danger">
             <Ul>
                 @foreach($errors->all() as $error)
