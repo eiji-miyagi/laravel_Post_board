@@ -1,6 +1,7 @@
 # アプリケーション名
-* post_application
-※（simple-boadとなっているが変更する事）
+* 
+Post board
+
 
 # DEMO
 撮影中
@@ -8,6 +9,7 @@
 # Features
 * laravel学習用にTwitter風のアプリケーションを開発。
 * 入力した投稿データをデータベースに保存
+  編集、削除機能あり
 * データベースに保存された投稿を一覧表示
 
 # Requirement
@@ -74,6 +76,7 @@ DB_PASSWORD=secret
 * laravelアプリケーションフォルダに移動して起動
 
 php artisan serve
+
 
 
 * テーブル更新等があった際は適宜マイグレーションを行う
